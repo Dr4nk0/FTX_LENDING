@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+
+RUN apt-get update -y && apt-get install -y python3-pip python-dev
+RUN git clone https://github.com/Dr4nk0/FTX_lending_bot.git
+
+crontab -e
+0 * * * * /home/root/FTX_lending_bot/hourly.py
+0 0 * * 0 /home/root/FTX_lending_bot/hebdo.py
