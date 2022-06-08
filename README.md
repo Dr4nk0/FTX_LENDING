@@ -1,4 +1,5 @@
 # FTX_LENDING
+### Still in development so don't open new issues please
 Automated selection of best rate StableCoins to lend at the time.
 
 I recommend that you run the script periodically (e.g. every Tuesday at 00:00), you can use cron-tab for that.
