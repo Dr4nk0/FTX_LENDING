@@ -3,8 +3,6 @@ Automated selection of best rate StableCoins to lend at the time.
 
 I recommend that you run the script periodically (e.g. every Tuesday at 00:00), you can use cron-tab for that.
 
-You can use the docker container which is doing everything for you : https://hub.docker.com/r/dr4nk0/ftx_lending_automate
-
 ## How to use
 
 ### Parameters
